@@ -10,9 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdlib.h>
 #include "libft.h"
-#include <stddef.h>
 
 static int	char_is_in_set(char c, char const *set)
 {
@@ -68,9 +66,3 @@ char	*ft_strtrim(char const *s1, char const *set)
 		end--;
 	return (duplicator(s1, start, end));
 }
-/*
-#include <stdio.h>
-int main()
-{
-	printf("%s",ft_strtrim("  yasser   "," "));
-}*/

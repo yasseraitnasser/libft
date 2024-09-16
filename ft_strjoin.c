@@ -6,12 +6,10 @@
 /*   By: yait-nas <yait-nas@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/04 11:24:18 by yait-nas          #+#    #+#             */
-/*   Updated: 2023/11/26 14:14:23 by yait-nas         ###   ########.fr       */
+/*   Updated: 2024/09/16 11:25:08 by yasser           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include<stdlib.h>
-#include<stddef.h>
 #include "libft.h"
 
 char	*ft_strjoin(char const *s1, char const *s2)
@@ -29,9 +27,3 @@ char	*ft_strjoin(char const *s1, char const *s2)
 	ft_strlcat(new_s, s2, n + 1);
 	return (new_s);
 }
-/*
-#include <stdio.h>
-int main()
-{
-	printf("%s", ft_strjoin(NULL, "ait"));
-}*/

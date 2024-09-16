@@ -10,8 +10,6 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include<stddef.h>
-#include<stdlib.h>
 #include "libft.h"
 
 char	*ft_strdup(const char *s1)
@@ -31,11 +29,3 @@ char	*ft_strdup(const char *s1)
 	s2[i] = '\0';
 	return (s2);
 }
-/*
-#include<string.h>
-#include<stdio.h>
-int main()
-{
-	printf("%s",strdup(NULL));
-	//printf("%s",ft_strdup(NULL));
-}*/

@@ -10,7 +10,6 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <unistd.h>
 #include "libft.h"
 
 void	ft_putendl_fd(char *s, int fd)
@@ -27,13 +26,3 @@ void	ft_putendl_fd(char *s, int fd)
 	}
 	write(fd, "\n", 1);
 }
-/*
-#include <fcntl.h>
-#include<stdio.h>
-int main()
-{
-	int fd = open("test.txt", O_WRONLY | O_CREAT , 0644);
-	printf("fd == %d\n", fd);
-	ft_putendl_fd("youssef",fd);
-}
-*/

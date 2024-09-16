@@ -10,7 +10,6 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include<stddef.h>
 #include "libft.h"
 
 int	ft_strncmp(const char *str1, const char *str2, size_t n)
@@ -32,11 +31,3 @@ int	ft_strncmp(const char *str1, const char *str2, size_t n)
 	}
 	return (0);
 }
-/*
-#include <stdio.h>
-#include <string.h>
-int main()
-{
-	printf("%d", ft_strncmp(NULL, NULL, 1));
-	//printf("%d", strncmp(NULL, NULL, 1));
-}*/

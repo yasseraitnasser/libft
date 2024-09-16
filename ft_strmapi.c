@@ -6,23 +6,12 @@
 /*   By: yait-nas <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/06 23:25:15 by yait-nas          #+#    #+#             */
-/*   Updated: 2023/11/26 18:26:56 by yait-nas         ###   ########.fr       */
+/*   Updated: 2024/09/16 07:19:57 by yasser           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdlib.h>
-#include <ctype.h>
 #include "libft.h"
 
-/*char	upperchar(unsigned int i, char c)
-{
-	if (i % 2 == 0)
-		return (toupper(c));
-	else
-		return (tolower(c));
-
-}
-*/
 char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))
 {
 	int		i;
@@ -44,10 +33,3 @@ char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))
 	str[i] = '\0';
 	return (str);
 }
-/*
-#include <stdio.h>
-int main()
-{
-	char s[] = "sajida ait si mhand";
-	printf("%s",ft_strmapi(s,upperchar));
-}*/

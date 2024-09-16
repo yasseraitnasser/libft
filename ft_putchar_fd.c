@@ -10,7 +10,6 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <unistd.h>
 #include "libft.h"
 
 void	ft_putchar_fd(char c, int fd)
@@ -19,12 +18,3 @@ void	ft_putchar_fd(char c, int fd)
 		return ;
 	write(fd, &c, 1);
 }
-/*
-#include<fcntl.h>
-int main()
-{
-	int	i;
-	i = open("yasser", O_CREAT | O_RDWR, 0777);
-	ft_putchar_fd('y', i);
-	close (i);
-}*/

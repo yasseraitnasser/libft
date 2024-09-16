@@ -10,7 +10,6 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include<stddef.h>
 #include "libft.h"
 
 int	ft_memcmp(const void *s1, const void *s2, size_t n)
@@ -30,11 +29,3 @@ int	ft_memcmp(const void *s1, const void *s2, size_t n)
 	}
 	return (0);
 }
-/*
-#include<stdio.h>
-#include<string.h>
-int main()
-{
-	printf("%d\n",ft_memcmp("yasser","yasseeeer",5));
-	printf("%d",memcmp("yasser","yasseeeer",5));
-}*/

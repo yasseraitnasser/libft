@@ -36,10 +36,3 @@ int	ft_atoi(const char *str)
 	}
 	return (result * sign);
 }
-/*
-#include <stdio.h>
-#include <string.h>
-int main()
-{
-	printf("%d", ft_atoi(""));
-}*/

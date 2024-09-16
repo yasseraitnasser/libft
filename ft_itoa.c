@@ -10,7 +10,6 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include<stdlib.h>
 #include "libft.h"
 
 static int	how_many_to_alloc(int n)
@@ -59,11 +58,3 @@ char	*ft_itoa(int n)
 	}
 	return (str);
 }
-/*
-#include<stdio.h>
-int main()
-{
-	int n = -2147483648;
-	printf("%d\n", how_many_to_alloc(n));
-	printf("%s",ft_itoa(n));
-}*/

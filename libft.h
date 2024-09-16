@@ -6,16 +6,17 @@
 /*   By: yait-nas <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/11 21:19:20 by yait-nas          #+#    #+#             */
-/*   Updated: 2023/11/23 11:46:38 by yait-nas         ###   ########.fr       */
+/*   Updated: 2024/09/16 11:23:15 by yasser           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef LIBFT_H
 # define LIBFT_H
 
-# include<stdlib.h>
-# include<unistd.h>
-# include<stddef.h>
+# include <stdlib.h>
+# include <unistd.h>
+# include <stddef.h>
+# include <stdint.h>
 
 typedef struct s_list
 {

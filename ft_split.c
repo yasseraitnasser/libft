@@ -10,7 +10,6 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdlib.h>
 #include "libft.h"
 
 static int	count_words(char const	*s, char c)
@@ -96,14 +95,3 @@ char	**ft_split(char const	*s, char c)
 	strings[string_index] = NULL;
 	return (strings);
 }
-/*
-#include<stdio.h>
-int main()
-{
-	char s[] = "to be ot not to be";
-	char **str = ft_split(s,' ');
-	int count = count_words(s,' ');
-	printf("%d\n",count);
-	for (int i = 0; i < count ; i++)
-		printf("%s\n",str[i]);
-}*/

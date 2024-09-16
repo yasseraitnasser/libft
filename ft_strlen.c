@@ -10,7 +10,6 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include<stddef.h>
 #include "libft.h"
 
 size_t	ft_strlen(const char *s)
@@ -22,10 +21,3 @@ size_t	ft_strlen(const char *s)
 		i++;
 	return (i);
 }
-/*
-#include<stdio.h>
-#include <string.h>
-int main()
-{
-	printf("%zu", strlen(NULL));
-}*/

@@ -23,12 +23,3 @@ t_list	*ft_lstnew(void *content)
 	new -> next = NULL;
 	return (new);
 }
-/*
-#include <stdio.h>
-int main()
-{
-	char *s = "yasser";
-	t_list *node;
-	node = ft_lstnew(s);
-	printf("%s",(char *)node -> content);
-}*/

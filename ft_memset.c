@@ -6,11 +6,10 @@
 /*   By: yait-nas <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/02 17:25:33 by yait-nas          #+#    #+#             */
-/*   Updated: 2023/11/26 13:58:28 by yait-nas         ###   ########.fr       */
+/*   Updated: 2024/09/16 07:19:21 by yasser           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include<stddef.h>
 #include "libft.h"
 
 void	*ft_memset(void *b, int c, size_t len)
@@ -27,15 +26,3 @@ void	*ft_memset(void *b, int c, size_t len)
 	}
 	return (b);
 }
-/*
-#include <stdio.h>
-#include <string.h>
-int main()
-{
-	long	x;
-	unsigned char *c = (unsigned char *)&x;
-	memset(c, 0, 4);
-	memset(c, 232, 1);
-	memset(c + 1, 7, 1);
-	printf("%ld", x);
-}*/

@@ -10,7 +10,6 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include<stddef.h>
 #include "libft.h"
 
 void	*ft_memmove(void *dst, const void *src, size_t len)
@@ -25,7 +24,7 @@ void	*ft_memmove(void *dst, const void *src, size_t len)
 	char_src = (unsigned char *)src;
 	char_dst = (unsigned char *)dst;
 	if (char_dst > char_src)
-	{	
+	{
 		while (len--)
 			char_dst[len] = char_src[len];
 	}
@@ -39,13 +38,3 @@ void	*ft_memmove(void *dst, const void *src, size_t len)
 	}
 	return (dst);
 }
-/*
-#include<stdio.h>
-#include<string.h>
-int main()
-{
-	char s[10] = "yassero";
-
-	printf("%s\n",ft_memmove(s,s+2,6));
-	printf("%s",memmove(s,s+2,6));
-}*/
